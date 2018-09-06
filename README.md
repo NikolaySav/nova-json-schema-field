@@ -10,6 +10,18 @@ composer require nsavinov/nova-json-schema-field
 ```
 
 ## Usage
+In resource:
 
 ```php
+use Nsavinov\NovaJsonSchemaField\NovaJsonSchemaField;
+
+public function fields(Request $request)
+{
+    return [
+        // ...
+        NovaJsonSchemaField::make('Settings', $this->schema())
+                        ->listClass('list-reset'), // optional style class for detailed component
+    ];
+}
+
 ```
