@@ -24,4 +24,32 @@ public function fields(Request $request)
     ];
 }
 
+private function schema(): array
+{
+    return [
+        // your schema
+    ];
+}
+
+```
+
+Schema example:
+
+```json
+{
+	"type": "object",
+	"required": [
+		"foo",
+		"bar"
+	],
+	"properties": {
+		"bar": {
+			"type": "integer"
+		},
+		"foo": {
+			"type": "integer",
+			"description": "foo"
+		}
+	}
+}
 ```
