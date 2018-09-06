@@ -1,7 +1,7 @@
 # JSON schema field for Laravel Nova
 Laravel Nova field for displaying JSON schema data (https://json-schema.org/)
 
-<img width="566" alt="screenshot at sep 06 15-00-20" src="https://user-images.githubusercontent.com/13363510/45156038-9e85dc00-b1e5-11e8-85ce-8e8864e53d75.png">
+<img width="1144" alt="screenshot at sep 06 15-11-54" src="https://user-images.githubusercontent.com/13363510/45156555-4059f880-b1e7-11e8-8f08-3289166c6df3.png">
 
 ## Installation
 
