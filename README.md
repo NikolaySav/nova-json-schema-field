@@ -1,5 +1,5 @@
 # JSON schema field for Laravel Nova
-Laravel Nova field for displaying JSON schema data
+Laravel Nova field for displaying JSON schema data (https://json-schema.org/)
 
 ## Installation
 
