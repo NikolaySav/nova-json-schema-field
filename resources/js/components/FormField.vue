@@ -1,8 +1,17 @@
 <template>
-    <default-field :field="field">
-        <template slot="field">
+    <field-wrapper>
+        <div class="w-1/5 px-8 py-6">
+            <form-label :for="field.name">
+                {{ field.name || fieldName }}
+            </form-label>
+
+            <help-text v-if="field.helpText">
+                {{ field.helpText }}
+            </help-text>
+        </div>
+        <div class="w-4/5 px-8 py-6">
             <div v-for="(property, key) in properties" class="flex border-b border-40">
-                <div class="w-1/3 px-8 py-6">
+                <div class="w-1/3 py-6">
                     <template v-if="property.description">
                         <label :for="key" class="inline-block text-80 h-9">{{ property.description }}</label>
                         <help-text>{{ key }}</help-text>
@@ -12,7 +21,7 @@
                     </template>
                 </div>
 
-                <div class="w-2/3 px-8 py-6">
+                <div class="w-1/2 py-6">
                     <input :id="key" type="text"
                            class="w-full form-control form-input form-input-bordered"
                            :class="fieldHasError(key) ? 'border-danger': ''"
@@ -23,8 +32,8 @@
                     </p>
                 </div>
             </div>
-        </template>
-    </default-field>
+        </div>
+    </field-wrapper>
 </template>
 
 <script>
