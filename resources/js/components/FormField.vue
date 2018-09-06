@@ -12,7 +12,7 @@
                     </template>
                 </div>
 
-                <div class="w-1/2 px-8 py-6">
+                <div class="w-2/3 px-8 py-6">
                     <input :id="key" type="text"
                            class="w-full form-control form-input form-input-bordered"
                            :class="fieldHasError(key) ? 'border-danger': ''"
