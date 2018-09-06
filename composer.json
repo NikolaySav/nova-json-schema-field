@@ -1,6 +1,6 @@
 {
     "name": "nsavinov/nova-json-schema-field",
-    "description": "A Laravel Nova field.",
+    "description": "A Laravel Nova field for JSON Schema",
     "keywords": [
         "laravel",
         "nova"
