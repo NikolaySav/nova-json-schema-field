@@ -1,18 +1,18 @@
 # JSON schema field for Laravel Nova
-Laravel Nova field for displaying JSON schema data (https://json-schema.org/)
+Laravel Nova field for displaying [JSON schema](https://json-schema.org/) data 
 
 <img width="1144" alt="screenshot at sep 06 15-11-54" src="https://user-images.githubusercontent.com/13363510/45156555-4059f880-b1e7-11e8-8f08-3289166c6df3.png">
 
 ## Installation
 
-You can install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
+You can install the package into a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
 composer require nsavinov/nova-json-schema-field
 ```
 
 ## Usage
-In resource:
+Inside the resource:
 
 ```php
 use Nsavinov\NovaJsonSchemaField\NovaJsonSchemaField;
