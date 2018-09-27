@@ -1,4 +1,7 @@
 # JSON schema field for Laravel Nova
+
+[![Packagist](https://img.shields.io/packagist/dt/doctrine/orm.svg)](https://github.com/NikolaySav/nova-json-schema-field)
+
 Laravel Nova field for displaying [JSON schema](https://json-schema.org/) data 
 
 <img width="1144" alt="screenshot at sep 06 15-11-54" src="https://user-images.githubusercontent.com/13363510/45156555-4059f880-b1e7-11e8-8f08-3289166c6df3.png">
